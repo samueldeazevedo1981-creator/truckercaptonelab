@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Presets, capturas e IRs profissionais para pedaleiras. Timbres prontos para tocar, gravar e subir no palco.">
+  <title>Trucker Cap Tone Lab | Presets, Capturas & IRs</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="announcement">⚡ TIMBRES TESTADOS POR GUITARRISTA, PARA GUITARRISTAS</div>
+  <header class="header">
+    <a class="brand" href="#inicio" aria-label="Trucker Cap Tone Lab - início">
+      <img src="assets/trucker-cap-tone-lab-logo.png" alt="Trucker Cap Tone Lab">
+      <span><strong>TRUCKER CAP</strong><small>TONE LAB</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav class="nav">
+      <a href="#catalogo">LOJA</a>
+      <a href="#beneficios">COMO FUNCIONA</a>
+      <a href="#suporte">SUPORTE</a>
+    </nav>
+    <button class="cart" type="button" aria-label="Abrir carrinho">CARRINHO <span id="cartCount">0</span></button>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">TRUCKER CAP TONE LAB // DESDE 2026</span>
+        <h1>SEU SOM.<br><em>SEM ENROLAÇÃO.</em></h1>
+        <p>Presets, capturas e IRs criados para entregar resposta, dinâmica e presença. Ligue, carregue e toque.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#catalogo">EXPLORAR TIMBRES <span>↘</span></a>
+          <a class="btn ghost" href="#beneficios">CONHECER O LAB</a>
+        </div>
+        <div class="proof"><b>100%</b> DIGITAL <i></i><b>ACESSO</b> IMEDIATO <i></i><b>SUPORTE</b> DIRETO</div>
+      </div>
+      <div class="hero-visual">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <img src="assets/trucker-cap-tone-lab-logo.png" alt="Selo Trucker Cap Approved">
+        <div class="signal"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Produtos disponíveis">
+      <div>PRESETS <span>◆</span> CAPTURAS DE AMPS <span>◆</span> IMPULSE RESPONSES <span>◆</span> TUTORIAIS <span>◆</span> PRESETS <span>◆</span> CAPTURAS DE AMPS <span>◆</span> IMPULSE RESPONSES</div>
+    </section>
+
+    <section class="shop" id="catalogo">
+      <div class="section-head">
+        <div><span class="eyebrow">CATÁLOGO DO LAB</span><h2>ESCOLHA SUA PEDALEIRA</h2></div>
+        <p>Timbres organizados para palco, igreja, estúdio e prática.</p>
+      </div>
+      <div class="shop-tools">
+        <label class="search"><span>⌕</span><input id="searchInput" type="search" placeholder="Buscar pedaleira ou timbre..." aria-label="Buscar produtos"></label>
+        <div class="filters" role="group" aria-label="Filtrar por marca">
+          <button class="active" data-filter="all">TODAS</button>
+          <button data-filter="hotone">HOTONE</button>
+          <button data-filter="m-vave">M-VAVE</button>
+          <button data-filter="sonicake">SONICAKE</button>
+          <button data-filter="boss">BOSS</button>
+          <button data-filter="fractal">FRACTAL</button>
+          <button data-filter="headrush">HEADRUSH</button>
+          <button data-filter="line-6">LINE 6</button>
+          <button data-filter="kemper">KEMPER</button>
+          <button data-filter="mooer">MOOER</button>
+          <button data-filter="neural-dsp">NEURAL DSP</button>
+          <button data-filter="nux">NUX</button>
+          <button data-filter="valeton">VALETON</button>
+          <button data-filter="ziron">ZIRON</button>
+          <button data-filter="zoom">ZOOM</button>
+        </div>
+      </div>
+      <div class="products" id="productGrid"></div>
+      <div class="empty" id="emptyState" hidden>Nenhum timbre encontrado nessa busca.</div>
+    </section>
+
+    <section class="benefits" id="beneficios">
+      <article><span>01</span><h3>TIMBRE COM INTENÇÃO</h3><p>Ajustes pensados para responder à sua dinâmica, do toque leve ao solo.</p></article>
+      <article><span>02</span><h3>INSTALAÇÃO GUIADA</h3><p>Você recebe os arquivos e um passo a passo direto para começar sem dúvidas.</p></article>
+      <article><span>03</span><h3>PRONTO PARA O MUNDO REAL</h3><p>Presets construídos para funcionar no ensaio, no palco e na gravação.</p></article>
+    </section>
+
+    <section class="cta" id="suporte">
+      <div><span class="eyebrow">NÃO SABE QUAL PACK ESCOLHER?</span><h2>FALE DIRETO<br>COM O TONE LAB.</h2></div>
+      <a class="btn primary" href="https://wa.me/55" target="_blank" rel="noopener">CHAMAR NO WHATSAPP <span>↗</span></a>
+    </section>
+  </main>
+
+  <footer><div class="footer-brand"><img src="assets/trucker-cap-tone-lab-logo.png" alt=""><span>TRUCKER CAP<br><b>TONE LAB</b></span></div><p>© 2026 Trucker Cap Tone Lab. Todos os direitos reservados.</p><a href="#inicio">VOLTAR AO TOPO ↑</a></footer>
+
+  <aside class="cart-panel" aria-hidden="true"><button class="cart-close" aria-label="Fechar carrinho">×</button><span class="eyebrow">SEU CARRINHO</span><h2>TIMBRES SELECIONADOS</h2><div id="cartItems"></div><div class="cart-total"><span>TOTAL</span><strong id="cartTotal">R$ 0,00</strong></div><button class="btn primary checkout">FINALIZAR COMPRA</button></aside>
+  <div class="overlay"></div>
+  <script src="assets/app.js"></script>
+</body>
+</html>
